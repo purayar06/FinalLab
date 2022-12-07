@@ -21,7 +21,7 @@ def addbookingView(request):
     new_item = bookingListItem()
     new_item.user = user_email
     new_item.content = request.POST.get('content')
-    # new_item.show_datetime = request.POST.get('show_datetime')
+    new_item.showsdatetime = request.POST.get('showsdatetime')
     new_item.save()
     return HttpResponseRedirect('/booking/') 
     

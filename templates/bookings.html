@@ -51,8 +51,8 @@
                                         <option value="Bhediya">Bhediya</option>
                                         <option value="Kantara">Kantara</option>
                                       </select>
-                                    <label for="show_datetime" class="sr-only"></label>
-                                    <select class="form-control" name="show_datetime" id="show_datetime" placeholder="Select">
+                                    <label for="showsdatetime" class="sr-only"></label>
+                                    <select class="form-control" name="showsdatetime" id="showsdatetime" placeholder="Select">
                                         <option value="">Select Date-Time</option>
                                         <option value="07-11-2022 09:00AM">07-11-2022 09:00AM</option>
                                         <option value="08-11-2022 11:00AM">08-11-2022 11:00AM</option>
@@ -74,7 +74,7 @@
                     <div class="col-6">
                         <div class="card  text-white mb-2" style="background-color: #d6242d; ">
                             <div class="card-body">
-                              {{i.content}}   <!--  {{i.show_datetime}} -->
+                                {{i.showsdatetime}} : {{i.content}}  
                             </div>
                         </div>
                     </div>
