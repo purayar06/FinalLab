@@ -24,18 +24,11 @@
     <div class="container">
         <div class="row">
             <img src="{% static 'img/logo.png' %}" alt="" class="img-fluid mx-auto d-block float-center r-50" style="width: 600px; height:200px; margin-top: 50px;">
-        </div>
-        <div class="card text-center" style="margin-top: 80px; background-color: #26275d; margin-bottom: 133px; margin-left: 300px; margin-right: 300px;">
-            <div class="card-header">
-                <h6 style="color: white;">WELCOME</h6>
+       
+            <div class="card-body" style="margin-left: 480px; margin-top: 80px;">
+                <a href="{% url 'bookingapp:booking' %}" class="btn btn-primary btn-lg" style="background-color: #fdba12; padding: 40px;">Book Now!</a>
             </div>
-            <div class="card-body">
-                <a href="{% url 'bookingapp:booking' %}" class="btn btn-primary btn-lg" style="background-color: #fdba12;">Book Now!</a>
-            </div>
-            <div class="card-footer " style="color: rgba(255, 255, 255, 0.745);">
-                It All Starts Here
-            </div>
-        </div>
+          
     </div>
 
 
